@@ -1,0 +1,15 @@
+{
+  "name": "vue-node-docker-example",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "docker-compose up",
+    "build": "docker-compose build",
+    "stop": "docker-compose down",
+    "dev:frontend": "cd frontend && yarn serve",
+    "dev:backend": "cd backend && yarn dev"
+  },
+  "devDependencies": {
+    "sass": "^1.97.1",
+    "sass-loader": "^16.0.6"
+  }
+}
