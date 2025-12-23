@@ -11,6 +11,8 @@ RUN npm install
 # Копируем конфигурационные файлы
 COPY .env vue.config.js ./
 
+COPY . app/
+
 # Экспонируем порт дев-сервера
 EXPOSE 8080
 

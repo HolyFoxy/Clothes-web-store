@@ -6,10 +6,10 @@
           Activika
         </div>
         <nav class="navbar">
-          <router-link to="/">Главная</router-link>
-          <router-link to="/about">О нас</router-link>
-          <router-link to="/products">Продукты</router-link>
-          <router-link to="/contact">Контакты</router-link>
+          <router-link to="/">Home</router-link>
+          <router-link to="/about">About us</router-link>
+          <router-link to="/catalog">Catalog</router-link>
+          <router-link to="/contact">Contacts</router-link>
         </nav>
         <div class="user-ui">
           <div class="ico search">
@@ -170,6 +170,8 @@ onBeforeUnmount(()=>{
 
 .navbar a.router-link-exact-active {
   color: #ff6b35;
+  text-decoration: underline;
+  text-underline-offset: 5px;
 }
 
 .header{
