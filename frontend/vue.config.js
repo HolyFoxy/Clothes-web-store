@@ -4,14 +4,14 @@ module.exports = defineConfig({
     transpileDependencies: true,
     devServer: {
         host: '0.0.0.0',
-        port: 8080,
+        port: 80,
         https: false,
         hot: true,
         client: {
             webSocketURL: {
                 hostname: '0.0.0.0',
                 pathname: '/ws',
-                port: 8080,
+                port: 80,
                 protocol: 'ws',
             },
             overlay: {

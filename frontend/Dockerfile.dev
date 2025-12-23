@@ -14,7 +14,7 @@ COPY .env vue.config.js ./
 COPY . app/
 
 # Экспонируем порт дев-сервера
-EXPOSE 8080
+EXPOSE 80
 
 # Команда по умолчанию (будет переопределена в docker-compose для watch mode)
 CMD ["npm", "run", "serve", "--", "--host", "0.0.0.0", "--port", "8080"]
