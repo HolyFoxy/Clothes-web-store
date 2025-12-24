@@ -61,13 +61,19 @@ const { dataInfo } = defineProps({
       position: absolute;
       border-radius: 50%;
       background: #0077be;
-      padding: 1.2rem;
       transition: opacity 0.5s ease-in-out, background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
       opacity: 0;
       pointer-events: none;
 
       right: 1.2rem;
       bottom: 1.2rem;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      width: 4.4rem;
+      height: 4.4rem;
 
       svg{
         fill: white;

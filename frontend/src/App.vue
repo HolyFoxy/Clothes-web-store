@@ -148,6 +148,9 @@ onBeforeUnmount(()=>{
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;
   padding-top: 5rem;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .navbar {
@@ -175,12 +178,14 @@ onBeforeUnmount(()=>{
 }
 
 .header{
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   border-bottom: 1px solid #eee;
   background-color: #fff;
+  z-index: 100;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.1) 0px 1px 2px -1px;
 
   .container{
     display: flex;
@@ -234,6 +239,7 @@ onBeforeUnmount(()=>{
 .footer{
   padding-block: 10rem 4rem;
   background: linear-gradient(to bottom, white -10%, #374151 10%);
+  margin-top: auto;
 
   .notes{
     display: flex;
