@@ -84,7 +84,7 @@ import ProductCard from "@/components/ProductCard.vue";
                 id: '0',
                 name: 'Cutie kitten',
                 category: 'Cute',
-                image: 'https://images.ctfassets.net/sfnkq8lmu5d7/1NaIFGyBn0qwXYlNaCJSEl/ad59ce5eefa3c2322b696778185cc749/2021_0825_Kitten_Health.jpg?w=1000&h=750&fl=progressive&q=70&fm=jpg',
+                image: '/image/kitten1.jpeg',
                 price: 1,
                 oldPrice: 200,
                 isNew: true,

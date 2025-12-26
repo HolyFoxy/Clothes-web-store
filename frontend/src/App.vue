@@ -17,7 +17,7 @@
               <path d="M 13 3 C 7.4889971 3 3 7.4889971 3 13 C 3 18.511003 7.4889971 23 13 23 C 15.396508 23 17.597385 22.148986 19.322266 20.736328 L 25.292969 26.707031 A 1.0001 1.0001 0 1 0 26.707031 25.292969 L 20.736328 19.322266 C 22.148986 17.597385 23 15.396508 23 13 C 23 7.4889971 18.511003 3 13 3 z M 13 5 C 17.430123 5 21 8.5698774 21 13 C 21 17.430123 17.430123 21 13 21 C 8.5698774 21 5 17.430123 5 13 C 5 8.5698774 8.5698774 5 13 5 z"></path>
             </svg>
           </div>
-          <div class="ico user">
+          <router-link class="ico user" to="/personal-account">
             <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
               <g id="User">
                 <g>
@@ -26,7 +26,7 @@
                 </g>
               </g>
             </svg>     
-          </div>
+          </router-link>
           <div class="ico cart">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
               <path id="XMLID_1732_" d="M91.8,27.3L81.1,61c-0.8,2.4-2.9,4-5.4,4H34.4c-2.4,0-4.7-1.5-5.5-3.7L13.1,19H4c-2.2,0-4-1.8-4-4
@@ -55,10 +55,10 @@
           <div class="note">
             <div class="title">Quick links</div>
             <div class="links">
-              <router-link to="/" class="link">About us</router-link>
+              <router-link to="/" class="link">Home</router-link>
               <router-link to="/catalog" class="link">Catalog</router-link>
-              <router-link to="/Shipping_&_returns" class="link">Shipping & returns</router-link>
-              <router-link to="/Contact" class="link">Contact</router-link>
+              <router-link to="/about" class="link">About us</router-link>
+              <router-link to="/contact" class="link">Contact</router-link>
             </div>
           </div>
           <div class="note">
